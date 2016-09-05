@@ -1,7 +1,7 @@
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from wikiSpider.items import Article
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
-#change this to lineextractors only
+#change this to line extractors only
 
 
 
