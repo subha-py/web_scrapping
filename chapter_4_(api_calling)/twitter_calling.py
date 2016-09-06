@@ -7,5 +7,5 @@ t=Twitter(auth=OAuth('176509270-mHTe3L9yT3ggR78vXOViatQfctchLfRVrFZzqBwu',
 # statusUpdate = t.statuses.update(status='Hello, world2!')
 # print(statusUpdate)
 pp=pprint.PrettyPrinter(indent=4)
-pythonStatuses=t.statuses.user_timeline(screen_name='didhitimimi',count=5)
+pythonStatuses=t.statuses.user_timeline(screen_name='subhaiscool',count=5)
 pp.pprint(pythonStatuses)
